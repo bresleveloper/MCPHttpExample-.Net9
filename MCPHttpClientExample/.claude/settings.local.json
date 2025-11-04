@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet list:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:laurentkempe.com)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

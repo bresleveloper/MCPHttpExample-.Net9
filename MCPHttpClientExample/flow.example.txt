@@ -1,0 +1,250 @@
+appsrunner@debian-caml-net9:/opt/projects/McpHttpExample/MCPHttpClientExample$ dotnet run
+
+MCP Client Started!
+Connected to server with tools: get_client_details
+Connected to server with tools: get_clients_list
+Connected to server with tools: reverse
+Type your message below (type 'exit' to quit):
+
+ You: get pending clients
+
+ AI: trce: Microsoft.Extensions.AI.LoggingChatClient[805843669]
+      GetStreamingResponseAsync invoked: [
+        {
+          "role": "system",
+          "contents": [
+            {
+              "$type": "text",
+              "text": "You are a helpful assistant."
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "contents": [
+            {
+              "$type": "text",
+              "text": "get pending clients"
+            }
+          ]
+        }
+      ]. Options: {}. Metadata: {
+        "providerName": "ollama",
+        "providerUri": "http://localhost:11434/",
+        "defaultModelId": "llama3.2:latest"
+      }.
+
+>>> [08:27:48] AI is processing your request...
+
+>>> [08:27:54] Calling tool: get_clients_list
+    Arguments: {}
+trce: Microsoft.Extensions.AI.LoggingChatClient[1513570378]
+      GetStreamingResponseAsync received update: {
+        "role": "assistant",
+        "contents": [
+          {
+            "$type": "functionCall",
+            "callId": "691d49a5",
+            "name": "get_clients_list",
+            "arguments": {}
+          }
+        ],
+        "responseId": "7d21a1c385bf4baa8e73271be28ca235",
+        "createdAt": "2025-11-04T13:27:54.876045+00:00",
+        "modelId": "llama3.2:latest"
+      }
+>>> [08:27:55] Streaming response...
+
+trce: Microsoft.Extensions.AI.LoggingChatClient[1513570378]
+      GetStreamingResponseAsync received update: {
+        "role": "assistant",
+        "contents": [
+          {
+            "$type": "text",
+            "text": ""
+          },
+          {
+            "$type": "usage",
+            "details": {
+              "inputTokenCount": 251,
+              "outputTokenCount": 12,
+              "totalTokenCount": 263
+            }
+          }
+        ],
+        "responseId": "7d21a1c385bf4baa8e73271be28ca235",
+        "createdAt": "2025-11-04T13:27:55.256964+00:00",
+        "finishReason": "stop",
+        "modelId": "llama3.2:latest"
+      }
+
+>>> [08:27:55] Complete!
+trce: Microsoft.Extensions.AI.LoggingChatClient[1513570378]
+      GetStreamingResponseAsync received update: {
+        "role": "tool",
+        "contents": [
+          {
+            "$type": "functionResult",
+            "callId": "691d49a5",
+            "result": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "[\n  {\n    \"Id\": 1,\n    \"Name\": \"Acme Corporation\",\n    \"Status\": \"Active\"\n  },\n  {\n    \"Id\": 2,\n    \"Name\": \"TechStart Industries\",\n    \"Status\": \"Active\"\n  },\n  {\n    \"Id\": 3,\n    \"Name\": \"Global Solutions Ltd\",\n    \"Status\": \"Inactive\"\n  },\n  {\n    \"Id\": 4,\n    \"Name\": \"Innovation Labs\",\n    \"Status\": \"Pending\"\n  },\n  {\n    \"Id\": 5,\n    \"Name\": \"Enterprise Systems Inc\",\n    \"Status\": \"Active\"\n  }\n]"
+                }
+              ]
+            }
+          }
+        ],
+        "responseId": "55dbf03750b04739a55b75d32f3f995d",
+        "messageId": "55dbf03750b04739a55b75d32f3f995d",
+        "createdAt": "2025-11-04T13:27:55.3022408+00:00"
+      }
+{"content":[{"type":"text","text":"[\n  {\n    \u0022Id\u0022: 1,\n    \u0022Name\u0022: \u0022Acme Corporation\u0022,\n    \u0022Status\u0022: \u0022Active\u0022\n  },\n  {\n    \u0022Id\u0022: 2,\n    \u0022Name\u0022: \u0022TechStart Industries\u0022,\n    \u0022Status\u0022: \u0022Active\u0022\n  },\n  {\n    \u0022Id\u0022: 3,\n    \u0022Name\u0022: \u0022Global Solutions Ltd\u0022,\n    \u0022Status\u0022: \u0022Inactive\u0022\n  },\n  {\n    \u0022Id\u0022: 4,\n    \u0022Name\u0022: \u0022Innovation Labs\u0022,\n    \u0022Status\u0022: \u0022Pending\u0022\n  },\n  {\n    \u0022Id\u0022: 5,\n    \u0022Name\u0022: \u0022Enterprise Systems Inc\u0022,\n    \u0022Status\u0022: \u0022Active\u0022\n  }\n]"}]}
+
+
+>>> [08:27:55] AI is processing your request...
+
+
+>>> [08:28:01] Streaming response...
+
+Heretrce: Microsoft.Extensions.AI.LoggingChatClient[1513570378]
+      GetStreamingResponseAsync received update: {
+        "role": "assistant",
+        "contents": [
+          {
+            "$type": "text",
+            "text": "Here"
+          }
+        ],
+        "responseId": "fe889f33af6342049db10a0054be5b09",
+        "createdAt": "2025-11-04T13:28:01.575221+00:00",
+        "modelId": "llama3.2:latest"
+      }
+ aretrce: Microsoft.Extensions.AI.LoggingChatClient[1513570378]
+      GetStreamingResponseAsync received update: {
+        "role": "assistant",
+        "contents": [
+          {
+            "$type": "text",
+            "text": " are"
+          }
+        ],
+        "responseId": "fe889f33af6342049db10a0054be5b09",
+        "createdAt": "2025-11-04T13:28:01.8009248+00:00",
+        "modelId": "llama3.2:latest"
+      }
+ thetrce: Microsoft.Extensions.AI.LoggingChatClient[1513570378]
+      GetStreamingResponseAsync received update: {
+        "role": "assistant",
+        "contents": [
+          {
+            "$type": "text",
+            "text": " the"
+          }
+        ],
+        "responseId": "fe889f33af6342049db10a0054be5b09",
+        "createdAt": "2025-11-04T13:28:01.9628772+00:00",
+        "modelId": "llama3.2:latest"
+      }
+ pendingtrce: Microsoft.Extensions.AI.LoggingChatClient[1513570378]
+      GetStreamingResponseAsync received update: {
+        "role": "assistant",
+        "contents": [
+          {
+            "$type": "text",
+            "text": " pending"
+          }
+        ],
+        "responseId": "fe889f33af6342049db10a0054be5b09",
+        "createdAt": "2025-11-04T13:28:02.1300042+00:00",
+        "modelId": "llama3.2:latest"
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      event: message
+data: 
+{
+  "result": {
+    "tools": [
+      {
+        "name": "get_client_details",
+        "description": "Get detailed information about a specific Galaxy client by their ID",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "clientId": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clientId"
+          ]
+        }
+      },
+      {
+        "name": "get_clients_list",
+        "description": "Get a list of all Galaxy clients with their basic information (id, name, status)",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "reverse",
+        "description": "reverse the message by galaxy standards",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "message": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "message"
+          ]
+        }
+      }
+    ]
+  },
+  "id": 2,
+  "jsonrpc": "2.0"
+}
+
