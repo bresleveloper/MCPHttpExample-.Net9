@@ -76,3 +76,15 @@ for cloud use (google) `hostiner n8n server`
 * `scp -r ./publish/* appsrunner@185.220.206.118:/var/www/MCPHttpServerExample/`
 * `systemctl restart MCPHttpServerExample`
 * test localhost n8n with `http://0.0.0.0:4006`
+
+
+
+
+## Debian / Linux
+
+in case you want to have some linux fun time, my journey is here
+
+`https://gist.github.com/bresleveloper/4d43a1716827a1fe7f6d50903c9e137d`
+
+
+
