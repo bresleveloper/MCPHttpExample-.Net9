@@ -82,9 +82,7 @@ for cloud use (google) `hostiner n8n server`
 
 ## Debian / Linux
 
-in case you want to have some linux fun time, my journey is here
-
-`https://gist.github.com/bresleveloper/4d43a1716827a1fe7f6d50903c9e137d`
+in case you want to have some linux fun time, my journey [IN THIS GIST](https://gist.github.com/bresleveloper/4d43a1716827a1fe7f6d50903c9e137d)
 
 
 
