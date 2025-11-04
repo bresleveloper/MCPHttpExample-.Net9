@@ -28,7 +28,7 @@ for cloud use (google) `hostiner n8n server`
 * `dotnet add package ModelContextProtocol.AspNetCore --prerelease`     
 * `dotnet add package Microsoft.Extensions.Hosting`
 
-**project specific**
+**version specific for this project**
 * `dotnet add package ModelContextProtocol --version 0.4.0-preview.3`                
 * `dotnet add package ModelContextProtocol.AspNetCore --version 0.4.0-preview.3`     
 * `dotnet add package Microsoft.Extensions.Hosting`
